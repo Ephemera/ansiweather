@@ -52,6 +52,18 @@ Toggle Unicode symbols display. Value can be either `true` or `false` (requires 
 
 	symbols:true
 
+### Changed Weather API
+
+So you need APIKEY of forecast.io, latitude, longitude, and [different units(us|si|ca|uk|auto)](https://developer.forecast.io/docs/v2#options) for configuration
+
+Example : ~/.ansiweatherrc
+
+    apikey:12345
+    lat:37.554476
+    lon:126.970882
+    units:si
+
+
 ## License
 
 AnsiWeather is released under the BSD 3-Clause license. See `LICENSE` file
